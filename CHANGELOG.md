@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/knitesh/test-delete/compare/v1.3.2...v2.0.0) (2021-09-30)
+
+
+* refactor!: drop support for Node 6 ([0dbb56b](https://github.com/knitesh/test-delete/commit/0dbb56b69d6afa2e3fe3540fb91d1fb027ab74f2))
+
+
+### BREAKING CHANGES
+
+* refactor to use JavaScript features not available in Node 6.
+
+
+
+
+
 ## [1.3.2](https://github.com/knitesh/test-delete/compare/v1.3.1...v1.3.2) (2021-09-30)
 
 **Note:** Version bump only for package testDir
