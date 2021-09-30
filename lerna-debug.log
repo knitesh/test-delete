@@ -1,0 +1,57 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   'conventional-commits': true,
+0 silly argv   conventionalCommits: true,
+0 silly argv   yes: true,
+0 silly argv   y: true,
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '/Users/knitesh/Documents/kode/testDir/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/knitesh/Documents/kode/testDir
+3 info current version fixed
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch main
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 1
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "default-app@1.1.0-1-g0b753eb" => {"lastTagName":"default-app@1.1.0","lastVersion":"1.1.0","refCount":"1","sha":"0b753eb","isDirty":false}
+14 info Looking for changed packages since default-app@1.1.0
+15 silly checking diff packages/default-app
+16 silly no diff found in default-app
+17 silly checking diff packages/default-project-v2
+18 silly found diff in packages/default-project-v2/src/App.css
+18 silly found diff in packages/default-project-v2/src/App.js
+18 silly found diff in packages/default-project-v2/src/App.test.js
+18 silly found diff in packages/default-project-v2/src/index.css
+18 silly found diff in packages/default-project-v2/src/index.js
+18 silly found diff in packages/default-project-v2/src/logo.svg
+18 silly found diff in packages/default-project-v2/src/reportWebVitals.js
+18 silly found diff in packages/default-project-v2/src/setupTests.js
+19 verbose filtered diff [
+19 verbose filtered diff   'packages/default-project-v2/src/App.css',
+19 verbose filtered diff   'packages/default-project-v2/src/App.js',
+19 verbose filtered diff   'packages/default-project-v2/src/App.test.js',
+19 verbose filtered diff   'packages/default-project-v2/src/index.css',
+19 verbose filtered diff   'packages/default-project-v2/src/index.js',
+19 verbose filtered diff   'packages/default-project-v2/src/logo.svg',
+19 verbose filtered diff   'packages/default-project-v2/src/reportWebVitals.js',
+19 verbose filtered diff   'packages/default-project-v2/src/setupTests.js'
+19 verbose filtered diff ]
+20 silly checking diff packages/user-table-umd
+21 silly no diff found in @rosetta-ui/user-table-umd
+22 verbose updated default-project-v2
+23 verbose git-describe undefined => "default-app@1.1.0-1-g0b753eb"
+24 silly git-describe parsed => {"lastTagName":"default-app@1.1.0","lastVersion":"1.1.0","refCount":"1","sha":"0b753eb","isDirty":false}
+25 error TypeError: Invalid Version: fixed
+25 error     at new SemVer (/Users/knitesh/Documents/kode/testDir/node_modules/semver/classes/semver.js:38:13)
+25 error     at compare (/Users/knitesh/Documents/kode/testDir/node_modules/semver/functions/compare.js:3:32)
+25 error     at Object.lt (/Users/knitesh/Documents/kode/testDir/node_modules/semver/functions/lt.js:2:29)
+25 error     at VersionCommand.setGlobalVersionFloor (/Users/knitesh/Documents/kode/testDir/node_modules/@lerna/version/index.js:413:18)
+25 error     at /Users/knitesh/Documents/kode/testDir/node_modules/@lerna/version/index.js:384:37
+25 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+25 error     at async Promise.all (index 0)
