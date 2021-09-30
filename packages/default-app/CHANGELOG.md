@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/knitesh/test-delete/compare/v2.0.1...v3.0.0) (2021-09-30)
+
+
+* feat!: drop support for Node 6 ([97fa1bc](https://github.com/knitesh/test-delete/commit/97fa1bcf4e307b3531c4e1153842b0dd5e686083))
+
+
+### BREAKING CHANGES
+
+* refactor to use JavaScript features not available in Node 6.
+
+
+
+
+
 ## [2.0.1](https://github.com/knitesh/test-delete/compare/v2.0.0...v2.0.1) (2021-09-30)
 
 **Note:** Version bump only for package default-app
